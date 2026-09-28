@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches
+.pytest_cache/
+.mypy_cache/
+
+# Environments / secrets — never commit real keys
+.env
+.env.*
+!.env.example
+!.env.*.example
+.venv/
+venv/
+ENV/
+**/secrets/
+*.pem
+*.key
+credentials.json
+service-account*.json
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Vercel local link / pull artifacts
+.vercel
+.env.local
+.env*.local
+!.env.example
+!.env.*.example
